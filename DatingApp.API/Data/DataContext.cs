@@ -9,5 +9,7 @@ namespace DatingApp.API.Data
         
         //Values represents the table name in the database
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
